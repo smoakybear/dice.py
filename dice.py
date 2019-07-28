@@ -19,8 +19,5 @@ while True:
     
     for i in range(numOfDice):
         r = random.randint(myRange1, myRange2)
-    print(r)
+        print(r)
     break
-
-
-# It's so close to working. Just figure out what's wrong with line 20 it's 
