@@ -1,5 +1,5 @@
 #!python3
-#Random number generator just because
+# Random number generator, just because
 
 import random
 
@@ -15,9 +15,11 @@ while True:
     print('How many numbers do you want to generate?')
     numOfDice = int(input())
     if numOfDice == int:
-        break
-    
+        continue
+    print('Here they are')
+
     for i in range(numOfDice):
-        r = random.randint(myRange1, myRange2)
-        print(r)
+        myNumbers = random.randint(myRange1, myRange2)
+        print('')
+        print(myNumbers)
     break
